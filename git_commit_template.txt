@@ -1,0 +1,71 @@
+# Asunto: (50 caracteres o menos) 
+# Describe el cambio de forma concisa y en modo imperativo.
+#-----------------------------------------------#
+
+
+# Cuerpo: (72 caracteres o menos por línea)
+# Qué: Describe qué se ha modificado.
+# Por qué: Explica la razón del cambio.
+# Cómo: Si es necesario, describe brevemente cómo se realizó el cambio.
+#---------------------------------------------------------------------#
+
+
+
+# Enlaces: Incluye tickets, issues o cualquier otra información relevante.
+# Estado:
+#	TODO: Tarea sin terminar. 
+#	WIP: Tarea en progreso (Work in Progress).
+#	FINAL: Tarea terminada. (Implementar la función X)
+#	REVIEWED: Tarea terminada y revisada. (Correcciones de errores en la función Y)
+#	REFACTOR: Código que necesita refactorización. (Reorganizar la estructura del código)
+#	TEST: Código que necesita pruebas. (Escribir pruebas para la API)
+#	DEPRECATED: Código obsoleto.
+#
+# Tipo:
+#	Documentación:
+#		DOC-NEW: Creación de nueva documentación.
+#		DOC-MOD: Modificación de documentación existente.
+#	Corrección de errores:
+#		BUGFIX: Corrección de un error.
+#	Retoques estéticos/de imagen:
+#		UI: Retoques en la interfaz de usuario.
+#		IMAGE: Retoques en imágenes.
+#	Retoques de rendimiento:
+#		PERFORMANCE: Optimización del rendimiento.
+#	Código relacionado con tests:
+#		TEST-NEW: Creación de nuevas pruebas.
+#		TEST-MOD: Modificación de pruebas existentes.
+#	Otras abreviaciones:
+#		TASK: Tarea general.
+#		FEATURE: Implementación de una nueva funcionalidad.
+#		MISC: Tarea miscelánea.
+#
+#ID   | Estado     | Tipo        | Descripción                        |
+
+#-----|------------|-------------|------------------------------------|
+#
+#Recomendaciones adicionales:
+#Utiliza mayúsculas al inicio del asunto y del cuerpo.
+#No termines el asunto con un punto.
+#Separa el asunto del cuerpo con una línea en blanco.
+#Utiliza verbos en modo imperativo en el asunto.
+#Limita el uso de emojis y símbolos.
+#Evita discusiones irrelevantes en el cuerpo.
+#Revisa la ortografía y la gramática.
+#
+#Ejemplo de mensaje de commit:
+#Modelo CNN para traducción de SL a texto.
+#
+#Se ha implementado un modelo CNN para traducir imágenes de lenguaje de
+#señas a texto.La precisión del modelo anterior era insuficiente. Se ha
+#entrenado un modelo CNN con una arquitectura ResNet50 y un conjunto de
+#datos de imágenes de lenguaje de señas.
+#
+#ID   | Estado     | Tipo        | Descripción                        |
+#00001|------------|-------------|--------------                      |
+#00001| TODO       | DOC-NEW     | Creación de nueva documentación    |
+#00001| FINAL      | REFACTOR    | Actualizar la interfaz de usuario  |
+#00001| DEPRECATED | BUGFIX      | Usar la nueva función foo en lugar |
+#                                  de bar                             |
+#00001 | ... | ...  | ...         | ...                               |
+#
